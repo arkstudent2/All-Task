@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    #bg-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    fieldset {
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <video autoplay muted loop playsinline id="bg-video">
+    <source src="./Assets/video/14519720_3840_2160_25fps.mp4" type="video/mp4">
+</video>
+        <header style="background-color: gray; padding: 15px; display: flex; align-items: center;">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnhEjfvU_NaY8tx6Xfg9mhGnoKkWz3albUPAAjgwi6BlFUHNgp6hWloECI&s=10"
+         alt="Logo" width="50" height="30">
+
+    <b style="color:rgb(179, 240, 245); margin-left: 10px; font-size: 22px;">
+        Hacker
+    </b>
+
+    <nav style="margin-left: auto;">
+        <a href="./login.html" style="color: white;">
+            <strong>Home</strong>
+        </a>&nbsp;&nbsp;&nbsp;
+
+        <strong style="color: white;">About Us</strong>&nbsp;&nbsp;&nbsp;
+
+        <strong style="color: white;">Contact Us</strong>&nbsp;
+
+        <a href="./login.html" style="color: white; margin-left: 20px;">
+            <strong>Login</strong>
+        </a>
+    </nav>
+
+</header>
+    <center style="padding: 100px;">
+    <fieldset style="width: 300px;">
+    <form>
+        <h1>Sign Up</h1>
+        <p><strong>General Information</strong></p>
+        <input type="text" name="uname" id="uname" placeholder="Name" required >
+        <br><br>
+        <input type="email" name="email" id="email" placeholder="@gmail.com" required>
+        <br><br>
+        <input type="password" name="paw" id="paw" placeholder="password" minlength="8" required>
+        <br><br>
+        <input type="date" name="dob" id="dob"
+        style="width: 160px; height: 20px;" required>
+        <br><br>
+
+        <div style="border: 1px solid black;background-color: white;
+            border-radius: 3px; width: 160px; height: 20px; display: flex; justify-content: center; align-items: center; gap: 10px;">
+
+            <label for="male">Male</label>
+             <input type="radio" id="male" name="gender"
+              value="male" required>
+            <label for="female">Female</label>
+              <input type="radio" id="female" name="gender"
+              value="female" required>
+        </div>
+        <br>
+        <label for="profile">Profile</label>
+         <input type="file" id="profile" name="profile" accept="image/*" required>
+         <hr style="border-top: 5px solid black; width:8cm;">
+        <b>
+            <button>
+            <a href="./contact.html">Next</a>
+            </button>
+        </b>
+    </form>
+</fieldset>
+</center>
+</body>
+</html>

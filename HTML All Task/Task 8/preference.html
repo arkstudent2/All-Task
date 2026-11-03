@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    #bg-video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    fieldset {
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 10px;
+    }
+</style>
+<body>
+    <video autoplay muted loop playsinline id="bg-video">
+    <source src="./Assets/video/14519720_3840_2160_25fps.mp4" type="video/mp4">
+</video>
+    <header style="background-color: gray; padding: 15px; display: flex; align-items: center;">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnhEjfvU_NaY8tx6Xfg9mhGnoKkWz3albUPAAjgwi6BlFUHNgp6hWloECI&s=10"
+         alt="Logo" width="50" height="30">
+
+    <b style="color:rgb(179, 240, 245); margin-left: 10px; font-size: 22px;">
+        Hacker
+    </b>
+
+    <nav style="margin-left: auto;">
+        <a href="./login.html" style="color: white;">
+            <strong>Home</strong>
+        </a>&nbsp;&nbsp;&nbsp;
+
+        <strong style="color: white;">About Us</strong>&nbsp;&nbsp;&nbsp;
+
+        <strong style="color: white;">Contact Us</strong>&nbsp;
+
+        <a href="./login.html" style="color: white; margin-left: 20px;">
+            <strong>Login</strong>
+        </a>
+    </nav>
+
+</header>
+    <center  style="padding: 100px;">
+    <fieldset style="width: 400px;">
+        <form>
+        <h1>Sign Up</h1>
+        <p><strong>Preferences</strong></p>
+            <label for="terms">Receive Notifications</label>
+            <input type="checkbox" id="terms" name="terms" required>
+            <br><br>
+        <div>
+            <input type="text" id="location" name="location" list="city" placeholder="Preferred Job Location" required>
+        <datalist id="city">
+            <option value="Hyderabad"></option>
+            <option value="Karachi"></option>
+            <option value="Islamabad"></option>
+            <option value="Lahore"></option>
+            <option value="Others"></option>
+        </datalist>
+        </div>
+           <hr style="border-top: 5px solid black; width:8cm;">
+     <b>
+        <button>
+        <a href="./login.html">Submit</a>
+        </button>
+        <br><br>
+        <button>
+        <a href="./singup.html">Forget Password?</a>
+        </button>
+    </b> 
+        </form>
+    </fieldset>
+</center>   
+</body>
+</html>

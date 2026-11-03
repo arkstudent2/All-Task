@@ -1,0 +1,25 @@
+
+img{
+    background-color: antiquewhite;
+    width: 200px; height: 200px;
+    max-width: 200px;min-width: 200px;
+    max-height: 200px; min-height: 200px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+h2{
+    background-color: aquamarine;
+    width: 250px;
+     max-width: 250px;min-width: 250px;
+}
+*{
+    background-color: antiquewhite;
+}
+hr {
+    border: none;border-top: 2px solid black;border-radius: 1px;
+    max-width: 1000px;
+    min-width: 50px;
+}

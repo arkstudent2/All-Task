@@ -1,0 +1,76 @@
+body{
+  margin:10px;
+  font-family: Arial;
+  background-color: white;
+}
+h1{
+  text-align:center;
+  font-size:35px;
+  border-bottom:2px solid black;
+  padding-bottom:10px;
+}
+.menu{
+  text-align:center;
+  background-color: #eeeeee;
+  padding:10px;
+  border:1px solid gray;
+}
+.menu a{
+  color:black;
+  text-decoration:none;
+  margin:5px;
+}
+.main-table{
+  width:100%;
+  border:1px solid black;
+  margin-top:10px;
+}
+.main-table td{
+  border:1px solid gray;
+  padding:10px;
+  vertical-align:top;
+}
+.left{ width:25%; }
+.center{ width:40%; }
+.right{ width:35%; }
+img{ width:100%; }
+.box{
+  background-color: yellow;
+  border:1px solid black;
+  padding:5px;
+  margin-top:5px;
+  text-align:center;
+  font-size:12px;
+}
+.live{ color:red; font-weight:bold; }
+.small-text{ font-size:10px; color:gray; text-align:right; }
+
+/* FOOTER KA CSS - Beginner Style */
+.footer{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
+  border:2px solid gray;
+}
+.footer-table{
+  width:100%;
+}
+.footer-table td{
+  border:none;
+  padding:10px;
+  vertical-align:top;
+}
+.footer h3{
+  color: yellow;
+  font-size: 16px;
+}
+.footer p{
+  font-size: 12px;
+  color: white;
+}
+.copy{
+  text-align:center;
+  font-size:11px;
+  color: gray;
+}
