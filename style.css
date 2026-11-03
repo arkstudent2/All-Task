@@ -1,68 +1,58 @@
 
-/* Beginner-Level Complete CSS Styling */
-
-/* 1. Poore page ka background aur basic font setup */
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
-    background-color: #f8fafc; /* Halka sa saaf suthra background */
-    color: #334155; /* Dark grey text color */
+    background-color: #f8fafc; 
+    color: #334155; 
 }
 
-/* 2. Main Heading (AHMED RAZA KHAN) */
 h1 {
-    color: #1e3a8a; /* Professional Navy Blue rang */
+    color: #1e3a8a; 
     text-align: center;
     background-color: #ffffff;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Halka modern saya */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); 
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
 
-/* 3. Sub Headings (HTML aur CSS Assignments) */
 h2 {
-    color: #0f766e; /* Dark Teal Green rang */
+    color: #0f766e;
     border-bottom: 2px solid #0f766e;
     padding-bottom: 8px;
     margin-top: 30px;
     font-size: 22px;
 }
 
-/* 4. HTML aur CSS Sections ke Main White Boxes (Cards) */
 .section {
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; 
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); /* Card ka saya */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); 
     border: 1px solid #e2e8f0;
 }
 
-/* 5. Har Row (Assignment Link + GitHub Button) ko ek line mein laane ke liye */
 .assignment-row {
     display: flex;
-    justify-content: space-between; /* Is se assignment left aur GitHub right par chala jayega */
-    align-items: center;            /* Dono upar-neeche se bilkul barabar amne-samne rahenge */
-    padding: 8px 0;                 /* Har row ke andar ki spacing */
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 8px 0;                 
 }
 
-/* 6. Assignment Links ki simple styling */
 .assignment-row > a {
-    color: #2563eb; /* Blue color for links */
-    text-decoration: none; /* Links ke neeche se line hatane ke liye */
+    color: #2563eb; 
+    text-decoration: none; 
     font-weight: bold;
     font-size: 16px;
     transition: 0.2s;
 }
 
-/* Jab assignment link par mouse jaye */
 .assignment-row > a:hover {
     color: #1d4ed8;
-    text-decoration: underline; /* Mouse laane par line dikhegi */
+    text-decoration: underline; 
 }
 
-/* 7. Dropdown Select Elements (Assignment 05 aur CSS 01) */
 select {
     padding: 10px 15px;
     font-size: 14px;
@@ -72,40 +62,36 @@ select {
     color: #334155;
     cursor: pointer;
     width: 220px;
-    margin-top: 5px; /* Label se thoda gap */
+    margin-top: 5px;
     outline: none;
     transition: border-color 0.2s;
 }
 
-/* Jab dropdown select list par click ho */
 select:focus {
-    border-color: #2563eb; /* Click karne par border blue ho jayega */
+    border-color: #2563eb; 
 }
 
-/* Dropdown ke labels ki settings */
 label {
     font-weight: bold;
     font-size: 15px;
     color: #475569;
 }
 
-/* 8. GitHub Buttons ka pyara aur professional look */
 .github-link {
-    color: #475569 !important; /* Text color */
-    background-color: #f1f5f9; /* Button background */
+    color: #475569 !important; 
+    background-color: #f1f5f9; 
     padding: 8px 16px;
-    border-radius: 6px; /* Kinaray gol karne ke liye */
+    border-radius: 6px; 
     font-size: 13px;
     font-weight: 600;
     border: 1px solid #cbd5e1;
     text-decoration: none !important;
-    transition: all 0.2s ease; /* Styling smooth change hone ke liye */
+    transition: all 0.2s ease; 
 }
 
-/* GitHub button par mouse lane ka hover effect */
 .github-link:hover {
-    background-color: #1e293b; /* Dark background on hover */
-    color: #ffffff !important; /* Text white ho jayega */
+    background-color: #1e293b; 
+    color: #ffffff !important; 
     border-color: #1e293b;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
