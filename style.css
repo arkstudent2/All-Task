@@ -1,97 +1,81 @@
 
+/* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background-color: #f8fafc; 
-    color: #334155; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* Headings */
 h1 {
-    color: #1e3a8a; 
     text-align: center;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); 
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
 }
 
 h2 {
-    color: #0f766e;
-    border-bottom: 2px solid #0f766e;
-    padding-bottom: 8px;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
     margin-top: 30px;
-    font-size: 22px;
 }
 
+/* Sections and Assignment Rows */
 .section {
-    background-color: #ffffff; 
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); 
-    border: 1px solid #e2e8f0;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
 }
 
 .assignment-row {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;            
-    padding: 8px 0;                 
-}
-
-.assignment-row > a {
-    color: #2563eb; 
-    text-decoration: none; 
-    font-weight: bold;
-    font-size: 16px;
-    transition: 0.2s;
-}
-
-.assignment-row > a:hover {
-    color: #1d4ed8;
-    text-decoration: underline; 
-}
-
-select {
-    padding: 10px 15px;
-    font-size: 14px;
-    border: 1px solid #cbd5e1;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 12px 15px;
+    margin-bottom: 10px;
     border-radius: 6px;
-    background-color: #ffffff;
-    color: #334155;
-    cursor: pointer;
-    width: 220px;
-    margin-top: 5px;
-    outline: none;
-    transition: border-color 0.2s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
 }
 
-select:focus {
-    border-color: #2563eb; 
+.assignment-row strong {
+    color: #2c3e50;
+    min-width: 130px;
 }
 
-label {
-    font-weight: bold;
-    font-size: 15px;
-    color: #475569;
+/* Links Styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
 }
 
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* GitHub Link Special Button Style */
 .github-link {
-    color: #475569 !important; 
-    background-color: #f1f5f9; 
-    padding: 8px 16px;
-    border-radius: 6px; 
-    font-size: 13px;
-    font-weight: 600;
-    border: 1px solid #cbd5e1;
+    background-color: #24292e;
+    color: #ffffff !important;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-left: auto;
     text-decoration: none !important;
-    transition: all 0.2s ease; 
 }
 
 .github-link:hover {
-    background-color: #1e293b; 
-    color: #ffffff !important; 
-    border-color: #1e293b;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
 }
