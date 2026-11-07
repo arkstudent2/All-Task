@@ -1,0 +1,24 @@
+* { font-family: Arial, sans-serif; box-sizing: border-box; }
+body { background: #f2f2f2; padding: 20px; }
+h1 { text-align: center; }
+.intro { text-align: center; }
+.container { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+.card { width: 320px; background: #fff; padding: 15px; border-radius: 10px; border: 1px solid #ccc; }
+
+.box1 {
+  width: 200px; height: 150px; padding: 20px;
+  border: 5px solid #e74c3c; background: #ffcccc;
+  box-sizing: content-box; margin: 0 auto;
+}
+.box2 {
+  width: 200px; height: 150px; padding: 20px;
+  border: 5px solid #2ecc71; background: #ccffcc;
+  box-sizing: border-box; margin: 0 auto;
+}
+.box3 {
+  width: 250px; height: 200px; padding: 40px 10px;
+  border: 10px dashed #3498db; background: #cce5ff;
+  box-sizing: border-box; margin: 0 auto;
+}
+.label { font-weight: bold; margin-top: 10px; text-align: center; }
+.detail { font-size: 14px; color: #333; text-align: center; }

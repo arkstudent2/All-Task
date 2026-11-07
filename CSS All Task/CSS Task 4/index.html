@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Task 4 - Box Model</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CSS Box Model Experiment</h1>
+<p class="intro">Padding, Border, Width and Height ko change kar ke behavior observe kiya gaya hai.</p>
+
+<div class="container">
+  <div class="card">
+    <div class="box1">Box 1: content-box<br>Content Area</div>
+    <div class="label">Box 1 - Default</div>
+    <div class="detail">Width: 200px, Height: 150px<br>Padding: 20px, Border: 5px<br>Total Size: 250px x 200px</div>
+  </div>
+
+  <div class="card">
+    <div class="box2">Box 2: border-box<br>Content Area</div>
+    <div class="label">Box 2 - Border Box</div>
+    <div class="detail">Width: 200px, Height: 150px<br>Padding: 20px, Border: 5px<br>Total Size: 200px x 150px</div>
+  </div>
+
+  <div class="card">
+    <div class="box3">Box 3: Different Values</div>
+    <div class="label">Box 3 - Different Values</div>
+    <div class="detail">Width: 250px, Height: 200px<br>Padding: 40px 10px, Border: 10px dashed<br>Total Size: 250px x 200px</div>
+  </div>
+</div>
+
+</body>
+</html>
