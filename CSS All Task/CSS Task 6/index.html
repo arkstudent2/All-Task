@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>CSS Combinators</h1>
+<p class="top">A Combinator is a symbol that joins two selectors and shows their relationship.</p>
+
+<h2>1. Descendant Combinator ( space )</h2>
+<p class="definition"><b>Definition:</b> Descendant means any element that is inside another element, no matter how deep it is. It can be a child, grandchild, or even deeper. If the element is anywhere inside the parent, it will be selected. Think of it like a family - grandfather, father, son - all are in one family.</p>
+<p class="syntax">Syntax: div p</p>
+<div class="box first-box">
+  <p>I am learning CSS combinators.</p>
+  <div>
+    <p>I am inside inner box, but I will also change.</p>
+  </div>
+</div>
+
+<h2>2. Child Combinator ( > )</h2>
+<p class="definition"><b>Definition:</b> Child means only the direct child of a parent. It is like a father and his own son. Grandson is not counted. If the paragraph is inside another div, it is not a direct child, so it will NOT change.</p>
+<p class="syntax">Syntax: div > p</p>
+<div class="box second-box">
+  <p>I am direct child, so I will change.</p>
+  <div>
+    <p>I am NOT direct child, so I will NOT change.</p>
+  </div>
+</div>
+
+<h2>3. Adjacent Sibling Combinator ( + )</h2>
+<p class="definition"><b>Definition:</b> Adjacent Sibling means the brother who is standing just next to you. It selects only the element which comes immediately after another element. If any other tag comes in between, it will not work.</p>
+<p class="syntax">Syntax: h3 + p</p>
+<div class="box third-box">
+  <h3>My Heading</h3>
+  <p>I am just after heading, so I will change.</p>
+  <p>I am second paragraph, so I will NOT change.</p>
+</div>
+
+<h2>4. General Sibling Combinator ( ~ )</h2>
+<p class="definition"><b>Definition:</b> General Sibling means all brothers and sisters who come after you. It selects all elements which come after another element and have the same parent. Other tags can come in between, it does not matter.</p>
+<p class="syntax">Syntax: h4 ~ p</p>
+<div class="box fourth-box">
+  <h4>My Heading</h4>
+  <p>I am first brother, I will change.</p>
+  <b>This is a bold line</b>
+  <p>I am second brother, I will also change.</p>
+</div>
+</body>
+</html>

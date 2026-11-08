@@ -1,0 +1,59 @@
+body{
+  background: #eef2f5;
+  font-family: Arial;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  color: #333;
+}
+
+.top{
+  text-align: center;
+  color: #666;
+}
+
+h2{
+  color: #333;
+  margin-top: 25px;
+}
+
+.definition{
+  background: white;
+  padding: 12px;
+  border: 1px solid #999;
+}
+
+.syntax{
+  color: #777;
+  font-size: 13px;
+}
+
+.box{
+  background: white;
+  border: 2px solid black;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.box p{
+  padding: 6px;
+  margin: 6px;
+}
+
+.first-box p{
+  background: #fff2cc;
+}
+
+.second-box > p{
+  background: #d9edf7;
+}
+
+.third-box h3 + p{
+  background: #d9f2d9;
+}
+
+.fourth-box h4 ~ p{
+  background: #f2d9f2;
+}
